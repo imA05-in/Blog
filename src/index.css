@@ -1,0 +1,7 @@
+@import "tailwindcss" ;
+
+#root{
+  background: #1f1f1f;
+  color: whitesmoke;
+  height: 100%;
+}
