@@ -82,7 +82,7 @@ export default function Header() {
           {navItems.map((item) => {
             if (item.show) {
               return (
-                  <div className="bg-pink-600 font-medium rounded py-1 px-2" >
+                  <div className="bg-purple-600 font-medium rounded py-1 px-2" >
                 <NavLink to={item.path}>
                     {item.title}
                 </NavLink>
