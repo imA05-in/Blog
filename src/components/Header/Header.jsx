@@ -1,7 +1,7 @@
 import { Link, NavLink } from "react-router";
 import { HomeP } from "../../pages/indexP";
 import { useState } from "react";
-
+import logo from "../../assets/hero.png";
 export default function Header() {
   const loginStatus = false;
   const navItems = [
@@ -40,7 +40,7 @@ export default function Header() {
           <div>
         <NavLink to={`/`}>
             <img
-              src="/src/assets/hero.png"
+              src={logo}
               alt="logo"
               className="max-h-15 py-1"
             />
