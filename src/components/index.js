@@ -4,4 +4,8 @@ import Signup from "./Signup";
 import Container from "./Container";
 import Input from "./Input";
 import Login from "./Login";
-export {Header, Footer, Signup, Container,Input, Login}
+import PostForm from "./PostForm";
+import Button from "./Button";
+import Post from "../pages/Post";
+import PostCard from "./PostCard";
+export {Header, Footer, Signup, Container,Input, Login, PostForm, Button, Post, PostCard}
