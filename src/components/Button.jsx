@@ -2,6 +2,7 @@ export default function Button({
   label = "submit",
   type = "submit",
   clssName,
+  onclick,
   ...props
 }) {
   return (
@@ -9,6 +10,7 @@ export default function Button({
       type={type}
       className={`${clssName} bg-blue-500 font-medium rounded w-full`}
       {...props}
+      onClick={onclick}
     >
       {label}
     </button>
