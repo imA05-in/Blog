@@ -18,7 +18,7 @@ export default function Login(){
                 dispatch(toggleLoginRedux(userData))
                 console.log(userData);
                 
-                navigate("/")
+                navigate("/home")
             }
         } catch (error) {
             console.log("/src/components/login.jsx: ", error);
